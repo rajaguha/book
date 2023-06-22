@@ -1,14 +1,20 @@
 {
-    "version": "0.1.0",
-    "configurations": [
-        {
-          "type": "lldb",
-          "request": "launch",
-          "name": "Debug Rust Book Project",
-          "cargo": {
-            "args":["build","--manifest-path","${fileDirname}/../Cargo.toml"]
-          }
+  "version": "0.1.0",
+  "configurations": [
+      {
+        "type": "lldb",
+        "request": "launch",
+        "name": "Debug Rust Book Project",
+
+        "args": [],
+        "cwd": "${workspaceRoot}",
+        "sourceLanguages": ["rust"],
+
+        "cargo": {
+          "args":["build","--manifest-path","${fileDirname}/../Cargo.toml"]
         }
-    ]
+      }
+  ]
 }
+
 
