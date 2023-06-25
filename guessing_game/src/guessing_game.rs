@@ -15,12 +15,12 @@ pub(crate) fn main() {
         let guess: u32 = match guess.trim().parse() {
             Ok(num) => num,
             Err(err) => {
-                print!("ERROR:{}.\nType a NUMBER!\n", err);
+                print!("ERROR:{err}.\n\tType a NUMBER!\n");
                 continue;
             }
         };
 
-        println!("You guessed: {}", guess);
+        println!("You guessed: {guess}");
         match guess.cmp(&secret_number) {
             Ordering::Less => println!("Too small!"),
             Ordering::Greater => println!("Too big!"),
