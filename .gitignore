@@ -1,4 +1,5 @@
 hello_world/hello_world
-target
 *.alt
-snippet
+target/
+snippets/
+tmp/
