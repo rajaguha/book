@@ -6,7 +6,7 @@
         "request": "launch",
         "name": "Debug Rust Book Project",
 
-        "args": [ "arg 1", "arg 2", "arg 3", "arg 4", "arg 5" ],
+        "args": [ "arg 1", "arg 2", "arg 3", ],
         "cwd": "${workspaceRoot}",
         "sourceLanguages": ["rust"],
 

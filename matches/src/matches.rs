@@ -1,5 +1,3 @@
-// use std::env;
-
 #[allow(dead_code)]
 
 fn main() {

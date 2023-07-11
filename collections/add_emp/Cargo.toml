@@ -1,0 +1,13 @@
+[package]
+name = "add_emp"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[[bin]]
+name = "add_emp"
+path = "src/add_emp.rs"
+
+[dependencies]
+regex = "1.9.1"
