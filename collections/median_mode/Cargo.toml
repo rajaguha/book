@@ -10,3 +10,4 @@ name = "median_mode"
 path = "src/median_mode.rs"
 
 [dependencies]
+rand = "0.8.5"

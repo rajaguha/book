@@ -4,7 +4,7 @@
       {
         "type": "lldb",
         "request": "launch",
-        "name": "Debug Rust Book Project",
+        "name": "RBP",
 
         "args": [ "arg 1", "arg 2", "arg 3", ],
         "cwd": "${workspaceRoot}",
