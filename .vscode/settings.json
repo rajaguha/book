@@ -1,3 +1,4 @@
 {
-	"lldb.launch.relativePathBase": "${fileDirname}"
+    "lldb.launch.relativePathBase": "${fileDirname}",
+    "workbench.panel.defaultLocation": "right"
 }

@@ -1,5 +1,6 @@
 hello_world/hello_world
 *.alt
+*.orig
 target/
 snippets/
 tmp/

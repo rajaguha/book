@@ -38,7 +38,7 @@ fn main() {
             // "Remove" => del_empl( &emp_list, stmt ),
             "List" => lst_empl( &emp_list, stmt ),
             "Quit" => return,
-            &_ => println!( "Command '{cmd}' unknown. Try again." ),
+            &_ => panic!( "command '{cmd}' unknown" ),
         } 
     }
 }

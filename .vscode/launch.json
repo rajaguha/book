@@ -6,7 +6,7 @@
         "request": "launch",
         "name": "RBP",
 
-        "args": [ "arg 1", "arg 2", "arg 3", ],
+        "args": [ "~/.bashrc", ],
         "cwd": "${workspaceRoot}",
         "sourceLanguages": ["rust"],
 
