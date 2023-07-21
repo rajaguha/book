@@ -6,7 +6,7 @@
         "request": "launch",
         "name": "RBP",
 
-        "args": [ "~/.bashrc", ],
+        "args": [ "the", "./minigrep/poem.txt", ],
         "cwd": "${workspaceRoot}",
         "sourceLanguages": ["rust"],
 
